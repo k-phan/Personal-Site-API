@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /var/bin/api/
+cd /srv/api/
 npm install 
 
 pm2 describe api > /dev/null
